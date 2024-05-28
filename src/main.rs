@@ -1,6 +1,6 @@
 extern crate clap;
 
-use std::{env, error::Error, fmt::Display, fs, path::Path, process};
+use std::{env, error::Error, fmt::Display, fs, process};
 
 use clap::{Parser, Subcommand};
 use toml::{map::Map, Table, Value};
